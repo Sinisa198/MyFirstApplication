@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(./images/login-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form-box{
+    width: 400px;
+    background: skyblue;
+    margin:7% auto;
+    padding:50px 0;
+    color:white;
+    box-shadow: red;
+    border-radius:50px;
+}
+h1{
+    text-align: center;
+}
+.input-box{
+    margin:31px auto;
+    width:80%;
+    border-bottom:1px solid white;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.input-box input{
+    width: 90%;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:black;
+}
+.login-button{
+    margin: 40px auto 20px;
+    width:80%;
+    display: block;
+    outline:none;
+    padding:10px 0;
+    border:1px solid black;
+    color:white;
+    cursor: pointer;
+    background:transparent;
+}
